@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-growero",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "n8n community node for Growero — schedule social posts, list scheduled, fetch analytics from any workflow. Supports LinkedIn, X, Facebook, Instagram, Threads, Bluesky, TikTok, Reddit, Pinterest.",
   "license": "MIT",
   "author": {
@@ -11,10 +11,10 @@
   "homepage": "https://growero.io",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/social-frost/growero-n8n.git"
+    "url": "git+https://github.com/social-zenith/growero-n8n.git"
   },
   "bugs": {
-    "url": "https://github.com/social-frost/growero-n8n/issues"
+    "url": "https://github.com/social-zenith/growero-n8n/issues"
   },
   "keywords": [
     "n8n-community-node-package",

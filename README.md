@@ -123,7 +123,7 @@ npm audit signatures n8n-nodes-growero
 
 ## Support
 
-- 🐛 **Bugs**: https://github.com/social-frost/growero-n8n/issues
+- 🐛 **Bugs**: https://github.com/social-zenith/growero-n8n/issues
 - 📖 **API docs**: https://api.growero.io/api/v1/docs
 - 💬 **Help**: support@growero.io
 

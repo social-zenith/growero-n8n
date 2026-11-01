@@ -16,7 +16,7 @@
 # Pre-flight (one-time, you do this in npm dashboard):
 #   1. Open https://www.npmjs.com/package/n8n-nodes-growero/access
 #   2. Trusted Publishers → Add trusted publisher → GitHub Actions
-#   3. Repository owner: social-frost
+#   3. Repository owner: social-zenith
 #      Repository name:  growero-n8n
 #      Workflow filename: publish.yml
 #      Environment name:  release
@@ -68,6 +68,10 @@ jobs:
           # security patches but avoid odd-numbered (non-LTS) releases.
           node-version: "22"
           registry-url: "https://registry.npmjs.org"
+
+      # Trusted publishing (OIDC) needs npm >= 11.5.1; Node 22 ships npm 10.
+      - name: Install an npm that supports trusted publishing
+        run: npm install -g npm@11.18.0
 
       - name: Verify tag matches package.json version
         run: |

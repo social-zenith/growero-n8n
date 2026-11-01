@@ -28,7 +28,7 @@ this short doc before opening anything.
 Requirements: Node ≥ 18.
 
 ```bash
-git clone https://github.com/social-frost/growero-n8n.git
+git clone https://github.com/social-zenith/growero-n8n.git
 cd growero-n8n
 npm install                 # installs nothing (zero deps); creates lockfile
 npm run build               # mirrors source → dist/

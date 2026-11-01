@@ -8,7 +8,7 @@ contact_links:
       product feedback form on growero.io. Once the feature exists in the
       public API, this node will wrap it.
   - name: Security vulnerability
-    url: https://github.com/social-frost/growero-n8n/security/policy
+    url: https://github.com/social-zenith/growero-n8n/security/policy
     about: |
       Found a security issue? Don't open a public issue — email
       security@growero.io. See SECURITY.md for the responsible-disclosure
